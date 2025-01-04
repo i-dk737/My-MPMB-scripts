@@ -15,8 +15,8 @@ AddSubClass("barbarian", "fey warrior", {
 	source : ["CA:H", 1],
     features : {
 		// Would be very nice to have a [...] thing next to the feature names in their respective box to track the damage bonuses and DCs if any, like what Rage has (Rage (Barbarian 1, PHB 48) [+2 melee damage, 4× per long rest]). No need for the source if it is optional."
-		"subclassfeature3" : { 
-			// This ability lets you add your charisma to a single bonus action attack.
+		"subclassfeature3" : {
+			// The range of this ability increases at later levels. I would love for this effective range, along with the damage bonus from the charisma mod to be present in the feature name as well like [+<CHA MOD>, 30ft] (the range and cha mod would change based on the level and the sheet ability scores respectively).
 			name : "Blink Strike",
 			source : ["CA:H", 1],
 			minlevel : 3,
@@ -28,6 +28,7 @@ AddSubClass("barbarian", "fey warrior", {
 			// At level 6, I need this to be replaced by the ability "Greater Blink Strike"
 		},
 		"subclassfeature3.1" : {
+			// I would like the critical success and critical fail ranges to be present next to the ability name like [success 19-20, fail 1-2]. This range would increase at later levels.
 			name : "Feywild Gambit",
 			source : ["CA:H", 1],
 			minlevel : 3,
